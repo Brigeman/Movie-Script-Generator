@@ -18,7 +18,7 @@ Before running the application, ensure you have the following installed:
 
    ```bash
    git clone <repository_url>
-   cd movie-script-generator
+   
 
 Create a .env file in the project root and add your OpenAI API key:
 `TEST_OPENAI_API_KEY=<your_api_key>`
