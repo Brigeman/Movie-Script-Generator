@@ -55,7 +55,7 @@ def generate_movie_script(prompt, universe):
 
     return generated_script
 
-
+# TODO optimize
 def determine_emotion(sentence):
     # Example: Check for words related to emotions in the sentence
     if any(word in sentence.lower() for word in ["surprised", "smirking", "grinning", "smiling", "smile", "happy", "happiness"]):
